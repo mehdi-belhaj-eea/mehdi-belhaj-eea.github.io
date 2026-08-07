@@ -87,6 +87,13 @@ section.alt .card{box-shadow:0 4px 18px rgba(15,26,48,.05)}
 .lgbox img{max-width:48px;max-height:34px}
 .badgerow{display:flex;gap:12px;flex-wrap:wrap;margin:14px 0 18px}
 .badgerow img{height:74px}
+/* justificatifs */
+.justs{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin-top:12px}
+.just{display:block;background:#fff;border:1px solid var(--hair);border-radius:12px;padding:10px;transition:border-color .15s}
+.just:hover{border-color:var(--navy)}
+.just img{border:1px solid var(--hair);border-radius:8px;margin-bottom:8px;width:100%}
+.just .t{font-weight:700;color:var(--ink);font-size:13.5px}
+.just .n{font-size:12px;color:var(--mut)}
 /* docs */
 .docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
 .doc{background:#fff;border:1px solid var(--hair);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:10px}
