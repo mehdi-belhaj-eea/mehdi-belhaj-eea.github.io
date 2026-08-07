@@ -3,6 +3,7 @@
 --txt:#232833;--mut:#5C6675;--hair:#DFE5EE;--bg:#F6F8FB;--chip:#F4F6FA}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
+section[id],footer[id]{scroll-margin-top:74px}
 body{font-family:'Segoe UI',Carlito,Calibri,Roboto,Arial,sans-serif;color:var(--txt);background:#fff;line-height:1.55;font-size:16px}
 img{max-width:100%;display:block}
 a{color:var(--navy);text-decoration:none}
