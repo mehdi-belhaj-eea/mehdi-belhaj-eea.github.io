@@ -22,7 +22,7 @@ for page in ("index.html", "en/index.html", "mentions-legales.html"):
     full = os.path.join(ROOT, page)
     html = open(full, encoding="utf-8").read()
     p = P(os.path.dirname(full)); p.feed(html)
-    for must in ("cal.com", "github.com/mehdi-belhaj-eea", "og-card.png"):
+    for must in ("cal.com", "github.com/mehdi-belhaj-eea", "og-card-2026-"):
         if must not in html and page != "mentions-legales.html":
             errors.append(f"{page}: expected string missing: {must}")
 
